@@ -61,7 +61,7 @@ section > img {
         0deg,
         rgba(0,0,0,0.5),
         rgb(0,0,0,0.5)
-    ), url(img/ba1.jpg);
+    ), url(/img/ba1.jpg);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -122,7 +122,7 @@ section > img {
 
 .lugar{
     display: flex;
-    background-image: url(img/honolulu.jpg);
+    background-image: url(/img/honolulu.jpg);
     height: 80vh;
     background-size: cover;
     background-position: center center;
