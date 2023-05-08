@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+header{
+    background: #353A40;
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 15vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.logo img {
+    flex-direction: row;
+    height: 15vh;
+    vertical-align: middle;
+    margin-left: 10px;
+    display: flex;
+    
+ }
+.logo p{
+    color: white;
+    display: inline-block;
+ }
+
+
+nav {
+    display: inline-block;
+    padding: 25px;
+ }
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+ }
+ 
+#botton-comprar {
+    color: green;
+ }
+
+section {
+    height: 100vh;
+    position: relative;
+ }
+section > img {
+    height: 100%;
+    width: 100%;
+ }
+#imagen1{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    ), url(/img/ba1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+    
+.container-conferencia{
+    text-align: right; 
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    text-align: right;
+    color: white;
+}
+
+
+#seccion2{
+    height: 110vh;
+    padding-left: 10px;
+}
+.container-oradores{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+} 
+
+.container-oradores p{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.container-oradores h3{
+    margin-top: 5px;
+}
+
+.card {
+    width: 200px;
+    text-align: left;
+ }
+
+
+ 
+#lugarr{
+    background-color: #353A40;
+    height: 80vh;
+}
+#lugarr h3{
+    padding-top: 20px;
+    color: white;
+}
+#lugarr p{
+    color: white;
+}
+
+.lugar{
+    display: flex;
+    background-image: url(/img/honolulu.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#conviertete {
+    text-align: center;
+    height: 80vh;
+}
+#conviertete p{
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+#nombre{
+    width: 70vh;
+}
+#apellido{
+    width: 70vh;
+}
+#comentario{
+    width: 140vh;
+    height:30vh ;
+    padding-bottom: 0;
+}
+#texto{
+    text-align: left;
+    padding-left: 16%;
+    padding-top:0 ;
+}
+#botonenviar{
+    width: 140vh;
+    height: 7vh;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: success style;
+    color: white;
+    padding-bottom: 0;
+    text-align: center;
+    background-position: center center;
+    background-color: #4f7c30;
+}
+
+footer{
+    height: 15vh;
+    background-color: #345781;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#boton-ora{
+    padding: 7px;
+    text-decoration: none;
+    background-color: #ffffff00;
+    border-radius: 1px;
+    border-color: white;
+    color: white;
+}
+#boton-ti{
+    padding: 7px 15px;
+
+    text-decoration: none;
+    background-color: #66b830;
+    color: white;
+}
